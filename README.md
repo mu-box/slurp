@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/nanobox-io/slurp.svg)](https://travis-ci.org/nanobox-io/slurp)
-[![GoDoc](https://godoc.org/github.com/nanobox-io/slurp?status.svg)](https://godoc.org/github.com/nanobox-io/slurp)
+[![Build Status](https://travis-ci.org/mu-box/slurp.svg)](https://travis-ci.org/mu-box/slurp)
+[![GoDoc](https://godoc.org/github.com/mu-box/slurp?status.svg)](https://godoc.org/github.com/mu-box/slurp)
 
 # Slurp
-Intermediary to the stored build/blob, used specifically to speed up publishing nanobox builds.
+Intermediary to the stored build/blob, used specifically to speed up publishing microbox builds.
 
 ## Quickstart:
 ```sh
@@ -129,4 +129,4 @@ Fields:
 - v0.0.1 (April 25, 2016)
   - slurp is born
 
-[![nanobox oss logo](http://nano-assets.gopagoda.io/open-src/nanobox-open-src.png)](http://nanobox.io/open-source)
+[![microbox oss logo](http://assets.microbox.rocks/open-src/microbox-open-src.png)](http://microbox.cloud/open-source)

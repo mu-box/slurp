@@ -1,5 +1,5 @@
 // Slurp is an intermediary to the stored build/blob, used specifically
-// to speed up publishing nanobox builds.
+// to speed up publishing microbox builds.
 //
 // Usage
 //
@@ -32,10 +32,10 @@ import (
 	"github.com/jcelliott/lumber"
 	"github.com/spf13/cobra"
 
-	"github.com/nanobox-io/slurp/api"
-	"github.com/nanobox-io/slurp/backend"
-	"github.com/nanobox-io/slurp/config"
-	"github.com/nanobox-io/slurp/ssh"
+	"github.com/mu-box/slurp/api"
+	"github.com/mu-box/slurp/backend"
+	"github.com/mu-box/slurp/config"
+	"github.com/mu-box/slurp/ssh"
 )
 
 var (

@@ -10,9 +10,9 @@ import (
 	"net/url"
 
 	"github.com/gorilla/pat"
-	"github.com/nanobox-io/golang-nanoauth"
+	"github.com/mu-box/golang-microauth"
 
-	"github.com/nanobox-io/slurp/config"
+	"github.com/mu-box/slurp/config"
 )
 
 var (
@@ -36,7 +36,7 @@ func StartApi() error {
 		return fmt.Errorf("Failed to parse 'api-address' - %v", err)
 	}
 
-	var auth nanoauth.Auth
+	var auth microauth.Auth
 	auth.Header = "X-AUTH-TOKEN"
 
 	if uri.Scheme == "http" {
@@ -44,7 +44,7 @@ func StartApi() error {
 		return auth.ListenAndServe(uri.Host, config.ApiToken, routes(), "/ping")
 	}
 
-	cert, err := nanoauth.Generate("slurp.nanobox.io")
+	cert, err := microauth.Generate("slurp.microbox.cloud")
 	if err != nil {
 		return err
 	}

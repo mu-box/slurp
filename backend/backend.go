@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/url"
 
-	"github.com/nanobox-io/slurp/config"
+	"github.com/mu-box/slurp/config"
 )
 
 type blobReadWriter interface {

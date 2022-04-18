@@ -7,9 +7,9 @@ import (
 
 	"github.com/jcelliott/lumber"
 
-	"github.com/nanobox-io/slurp/backend"
-	"github.com/nanobox-io/slurp/config"
-	"github.com/nanobox-io/slurp/core"
+	"github.com/mu-box/slurp/backend"
+	"github.com/mu-box/slurp/config"
+	"github.com/mu-box/slurp/core"
 )
 
 func TestMain(m *testing.M) {

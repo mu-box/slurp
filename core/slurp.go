@@ -8,9 +8,9 @@ import (
 	"os/exec"
 	"sync"
 
-	"github.com/nanobox-io/slurp/backend"
-	"github.com/nanobox-io/slurp/config"
-	"github.com/nanobox-io/slurp/ssh"
+	"github.com/mu-box/slurp/backend"
+	"github.com/mu-box/slurp/config"
+	"github.com/mu-box/slurp/ssh"
 )
 
 var (

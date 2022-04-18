@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/nanobox-io/slurp/config"
+	"github.com/mu-box/slurp/config"
 )
 
 type hoarder struct {

@@ -18,7 +18,7 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/nanobox-io/slurp/config"
+	"github.com/mu-box/slurp/config"
 )
 
 // Check for host key, generate and write to a file if none exist
@@ -106,7 +106,7 @@ func Start() error {
 	// initialize ssh config
 	sshConfig := &ssh.ServerConfig{
 		PublicKeyCallback: userAuth,
-		ServerVersion:     "SSH-2.0-NANOPACK-SLURP",
+		ServerVersion:     "SSH-2.0-MICROBOX-SLURP",
 		AuthLogCallback:   logAuth,
 	}
 
