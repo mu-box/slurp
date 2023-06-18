@@ -1,6 +1,6 @@
 module github.com/mu-box/slurp
 
-go 1.17
+go 1.20
 
 require (
 	github.com/gorilla/context v1.1.1 // indirect

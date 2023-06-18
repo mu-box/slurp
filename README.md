@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mu-box/slurp.svg)](https://travis-ci.org/mu-box/slurp)
+[![Build Status](https://github.com/mu-box/slurp/actions/workflows/ci.yaml/badge.svg)](https://github.com/mu-box/slurp/actions)
 [![GoDoc](https://godoc.org/github.com/mu-box/slurp?status.svg)](https://godoc.org/github.com/mu-box/slurp)
 
 # Slurp
@@ -129,4 +129,4 @@ Fields:
 - v0.0.1 (April 25, 2016)
   - slurp is born
 
-[![microbox oss logo](http://assets.microbox.rocks/open-src/microbox-open-src.png)](http://microbox.cloud/open-source)
+[![microbox oss logo](http://microbox.rocks/assets/open-src/microbox-open-src.png)](http://microbox.cloud/open-source)
